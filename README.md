@@ -27,3 +27,14 @@ GIT STATUS → área de preparação/visualização para criação de arquivos.
 ```
 touch README.md → cria um arquivo texto em branco.
 ```
+
+para salvar uma modificação
+```
+git add 'name' -> adicionar ao commit
+```
+```
+git commit -m"commit inicial" 
+```
+```
+git log -> histórico
+```

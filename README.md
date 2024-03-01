@@ -28,13 +28,29 @@ GIT STATUS → área de preparação/visualização para criação de arquivos.
 touch README.md → cria um arquivo texto em branco.
 ```
 
-para salvar uma modificação
+## Para salvar uma modificação
 ```
 git add 'name' -> adicionar ao commit
 ```
 ```
-git commit -m"commit inicial" 
+git commit -m"nomedocommit" 
 ```
 ```
 git log -> histórico
+```
+## Restauração de arquivos
+```
+ rm -rf .git-> remover um diretório recursivamente
+```
+```
+git restore 'nomedoarquivo' -> recuperar arquivo
+```
+```
+git commit --amend -m"novonome" -> altera o nome do commit
+```
+```
+git reset --soft 'colar o commit (código acessado por git log)' -> voltar ao commit anterior
+```
+```
+git reflog -> historico detalhado
 ```

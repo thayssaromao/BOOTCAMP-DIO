@@ -62,3 +62,6 @@ git remote add origin 'url do repositório'
 ```
 git push -u origin main
 ```
+```
+git pull -> mesclar as alterações do repositório local e remoto
+```

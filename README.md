@@ -54,3 +54,11 @@ git reset --soft 'colar o commit (código acessado por git log)' -> voltar ao co
 ```
 git reflog -> historico detalhado
 ```
+# SUBIR UM COMMIT NO GITHUB
+
+```
+git remote add origin 'url do repositório'
+```
+```
+git push -u origin main
+```

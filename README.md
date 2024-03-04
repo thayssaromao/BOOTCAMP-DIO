@@ -57,6 +57,7 @@ git reflog -> historico detalhado
 # SUBIR UM COMMIT NO GITHUB
 
 ```
+
 git remote add origin 'url do repositório'
 ```
 ```
@@ -64,4 +65,30 @@ git push -u origin main
 ```
 ```
 git pull -> mesclar as alterações do repositório local e remoto
+```
+# BRANCHES
+```
+echo "nome do arquivo" > 'nomeEextensao'.txt -> cria um arquivo txt
+```
+```
+git add . -> adiciona todos os arquivos da main a um commit novo
+```
+## Criar uma branch teste (ponteiro móvel)
+```
+git checkout -b 'nomeNovaBranch' -> cria uma nova branch
+```
+```
+git checkout -b main -> retorna para a branch original 'main'
+```
+```
+git branch -v -> mostra o último commit de cada branch
+```
+```
+git merge 'nomeDaBranch' -> mescla a main com 'nomeDaBranch'
+```
+```
+git branch -> listar as BRANCHES
+```
+```
+git branch -d 'nomeDaBranch' -> excluir uma branch
 ```

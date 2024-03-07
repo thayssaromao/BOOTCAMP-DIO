@@ -92,3 +92,7 @@ git branch -> listar as BRANCHES
 ```
 git branch -d 'nomeDaBranch' -> excluir uma branch
 ```
+```
+git clone 'URL do repositorio' --branch "nomeDaBranch" --single-b (clonar uma branch)
+```
+

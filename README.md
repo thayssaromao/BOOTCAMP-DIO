@@ -61,6 +61,9 @@ git reflog -> historico detalhado
 git remote add origin 'url do repositório'
 ```
 ```
+git remote set-url origin <nova_URL_do_repositório>
+```
+```
 git push -u origin main
 ```
 ```

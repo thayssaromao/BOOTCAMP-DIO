@@ -64,6 +64,9 @@ git remote add origin 'url do repositório'
 git remote set-url origin <nova_URL_do_repositório>
 ```
 ```
+git remote -v --> visualizar as URLs dos repositórios remotos associados ao seu repositório Git local
+```
+```
 git push -u origin main
 ```
 ```

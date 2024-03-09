@@ -69,6 +69,9 @@ git push -u origin main
 ```
 git pull -> mesclar as alterações do repositório local e remoto
 ```
+```
+git remote add upstream -> " é um nome comum dado ao repositório remoto original a partir do qual o seu repositório local foi bifurcado (forked)
+```
 # BRANCHES
 ```
 echo "nome do arquivo" > 'nomeEextensao'.txt -> cria um arquivo txt

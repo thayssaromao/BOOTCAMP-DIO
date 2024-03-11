@@ -61,10 +61,19 @@ git reflog -> historico detalhado
 git remote add origin 'url do repositório'
 ```
 ```
+git remote set-url origin <nova_URL_do_repositório>
+```
+```
+git remote -v --> visualizar as URLs dos repositórios remotos associados ao seu repositório Git local
+```
+```
 git push -u origin main
 ```
 ```
 git pull -> mesclar as alterações do repositório local e remoto
+```
+```
+git remote add upstream -> " é um nome comum dado ao repositório remoto original a partir do qual o seu repositório local foi bifurcado (forked)
 ```
 # BRANCHES
 ```
@@ -92,3 +101,7 @@ git branch -> listar as BRANCHES
 ```
 git branch -d 'nomeDaBranch' -> excluir uma branch
 ```
+```
+git clone 'URL do repositorio' --branch "nomeDaBranch" --single-b (clonar uma branch)
+```
+

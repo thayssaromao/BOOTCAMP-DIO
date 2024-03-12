@@ -16,31 +16,31 @@ Repositório para armazenar resumos sobre Git e Github do curso Versionamento de
 Mkdir ‘’nome do diretorio’  → cria um novo diretório/pasta
 ```
 ```
-CD ‘nome do diretório’ → acessa o diretório/pasta.
+cd ‘nome do diretório’ → acessa o diretório/pasta.
 ```
 ```
-GIT INIT → comando que inicializa um repositório git  (comando usado dentro do repositório que quer ser usado)
+git init → comando que inicializa um repositório git(diretório já existente)
 ```
 ```
-GIT STATUS → área de preparação/visualização para criação de arquivos.
+git status -> área de preparação/visualização para criação de arquivos.
 ```
 ```
-touch README.md → cria um arquivo texto em branco.
+touch "README".md -> cria um arquivo texto em branco.(para criar outros tipos de arquivos basta mudar a extensão)
 ```
 
 ## Para salvar uma modificação
 ```
-git add 'name' -> adicionar ao commit
+git add 'name' -> adicionar ao commit('git add .' adiciona todas as alterações não rastreadas)
 ```
 ```
-git commit -m"nomedocommit" 
+git commit -m"nomedocommit" (adicionar um novo commit/atualização)
 ```
 ```
 git log -> histórico
 ```
 ## Restauração de arquivos
 ```
- rm -rf .git-> remover um diretório recursivamente
+rm -rf .git-> remover um diretório recursivamente
 ```
 ```
 git restore 'nomedoarquivo' -> recuperar arquivo
@@ -67,10 +67,10 @@ git remote set-url origin <nova_URL_do_repositório>
 git remote -v --> visualizar as URLs dos repositórios remotos associados ao seu repositório Git local
 ```
 ```
-git push -u origin main
+git push -u origin main -> enviar commits locais para um repositório remoto (repo no github) 
 ```
 ```
-git pull -> mesclar as alterações do repositório local e remoto
+git pull -> obter alterações do repositório remoto e mesclar com o repositório local
 ```
 ```
 git remote add upstream -> " é um nome comum dado ao repositório remoto original a partir do qual o seu repositório local foi bifurcado (forked)

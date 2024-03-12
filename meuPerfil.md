@@ -2,7 +2,7 @@
 
 Oiee! Meu nome é Dani,
 
-tenho 19 anos e atualmente trabalho meio período como jovem aprendiz e estudo tarde/noite na [UTFPR](https://www.utfpr.edu.br/). Meu repositório no github tem poucas submições pois costumo usar mais o replit(dá uma olhadinha no meu [perfil](https://replit.com/@THAYSSA-DANIELE)😁), até agora tenho aprendido várias coisas novas e **estou ansiosa para continuar nessa trilha de aprendizado!**
+tenho 19 anos e atualmente trabalho meio período como jovem aprendiz e estudo tarde/noite na [UTFPR](https://www.utfpr.edu.br/). Meu repositório no github tem poucas submissões pois costumo usar mais o replit(dá uma olhadinha no meu [perfil](https://replit.com/@THAYSSA-DANIELE)😁), até agora tenho aprendido várias coisas novas e **estou ansiosa para continuar nessa trilha de aprendizado!**
 
 ## 😎 Conecte-se comigo!
 [![DIO](https://img.shields.io/badge/MEU%20%20PERFIL%20DA%20DIO-4B0082?style=for-the-badge&logo=&logoColor=0000CD)](https://www.dio.me/users/romao_34176)

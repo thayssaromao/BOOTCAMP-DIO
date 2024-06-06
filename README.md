@@ -27,6 +27,12 @@ git status -> área de preparação/visualização para criação de arquivos.
 ```
 touch "README".md -> cria um arquivo texto em branco.(para criar outros tipos de arquivos basta mudar a extensão)
 ```
+```
+git diff -> mostra alterações feitas no arquivo modificado
+```
+```
+git diff --staged -> mostra alterações feitas no arquivo na área de staged
+```
 
 ## Para salvar uma modificação
 ```

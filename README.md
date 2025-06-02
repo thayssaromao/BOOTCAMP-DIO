@@ -33,6 +33,13 @@ git diff -> mostra alterações feitas no arquivo modificado
 ```
 git diff --staged -> mostra alterações feitas no arquivo na área de staged
 ```
+```
+git reset --hard codigo do commit  -> voltar a branch principal (ex: main) para esse commit
+```
+```
+git push --force -> atualizar repositório remoto
+```
+
 
 ## Para salvar uma modificação
 ```
